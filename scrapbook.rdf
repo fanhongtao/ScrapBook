@@ -2,6 +2,14 @@
 <RDF:RDF xmlns:NS1="http://amb.vis.ne.jp/mozilla/scrapbook-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:scrapbook:item20130318232800"
+                   NS1:id="20130318232800"
+                   NS1:type=""
+                   NS1:title="RFC 2396 - Uniform Resource Identifiers (URI): Generic Syntax"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:icon="http://tools.ietf.org/images/rfc.png"
+                   NS1:source="http://tools.ietf.org/html/rfc2396" />
   <RDF:Description RDF:about="urn:scrapbook:item20130301234141"
                    NS1:id="20130301234141"
                    NS1:type=""
@@ -10,9 +18,14 @@
                    NS1:comment=""
                    NS1:icon="http://tools.ietf.org/images/rfc.png"
                    NS1:source="http://tools.ietf.org/html/rfc2616" />
-  <RDF:Seq RDF:about="urn:scrapbook:root">
-    <RDF:li RDF:resource="urn:scrapbook:item20130301234112"/>
-  </RDF:Seq>
+  <RDF:Description RDF:about="urn:scrapbook:item20130301234313"
+                   NS1:id="20130301234313"
+                   NS1:type=""
+                   NS1:title="RFC 4918 - HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:icon="http://tools.ietf.org/images/rfc.png"
+                   NS1:source="http://tools.ietf.org/html/rfc4918" />
   <RDF:Description RDF:about="urn:scrapbook:item20130301234247"
                    NS1:id="20130301234247"
                    NS1:type=""
@@ -23,6 +36,7 @@
                    NS1:source="http://tools.ietf.org/html/rfc4791" />
   <RDF:Seq RDF:about="urn:scrapbook:item20130301234112">
     <RDF:li RDF:resource="urn:scrapbook:item20130301234141"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20130318232800"/>
     <RDF:li RDF:resource="urn:scrapbook:item20130301234247"/>
     <RDF:li RDF:resource="urn:scrapbook:item20130301234313"/>
   </RDF:Seq>
@@ -34,12 +48,7 @@
                    NS1:icon=""
                    NS1:source=""
                    NS1:comment="" />
-  <RDF:Description RDF:about="urn:scrapbook:item20130301234313"
-                   NS1:id="20130301234313"
-                   NS1:type=""
-                   NS1:title="RFC 4918 - HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)"
-                   NS1:chars="UTF-8"
-                   NS1:comment=""
-                   NS1:icon="http://tools.ietf.org/images/rfc.png"
-                   NS1:source="http://tools.ietf.org/html/rfc4918" />
+  <RDF:Seq RDF:about="urn:scrapbook:root">
+    <RDF:li RDF:resource="urn:scrapbook:item20130301234112"/>
+  </RDF:Seq>
 </RDF:RDF>
